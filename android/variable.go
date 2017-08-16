@@ -160,6 +160,8 @@ type productVariables struct {
 
 	// include Lineage variables
 	*android.ProductVariables
+
+	Libart_img_base            *string `json:",omitempty"`
 }
 
 func boolPtr(v bool) *bool {
